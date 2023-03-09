@@ -1,0 +1,14 @@
+.ingridientsSection {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+}
+
+.menu {
+  overflow-y: scroll;
+}
