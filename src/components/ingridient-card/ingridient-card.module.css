@@ -1,0 +1,35 @@
+.IngridientCard {
+  min-height: 208px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.imageContainer {
+  width: 240px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.currencyContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.name {
+  text-align: center;
+}
